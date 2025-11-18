@@ -1,0 +1,13 @@
+[
+  {
+    "technique_id": "T1190",
+    "name": "Exploit Public-Facing Application",
+    "tactic": "Initial Access",
+    "description": "Exploitation d’une vulnérabilité dans une application exposée.",
+    "appsec_mapping": {
+      "owasp": ["A03:2021 Injection"],
+      "vuln_examples": ["SQL injection sur /login"],
+      "log_signals": ["Multiples 500 sur la même URL"]
+    }
+  }
+]
